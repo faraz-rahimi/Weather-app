@@ -5,6 +5,10 @@ The app allows users to search for any city and instantly view its current weath
 
 ---
 
+## 🔗 Live Demo
+
+👉 https://faraz-rahimi.github.io/weather-app/
+
 ## ✨ Features
 
 - 🔍 Search weather by city name
