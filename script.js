@@ -52,25 +52,25 @@ const getWeather = async () => {
     load.classList.remove("active");
     switch (weather_code) {
       case 0:
-        description.textContent = "Clear Sky";
+        description.textContent = "☀️";
         break;
       case 1:
-        description.textContent = "Mainly Clear";
+        description.textContent = "🌤️";
         break;
       case 2:
-        description.textContent = "Partly Cloudy";
+        description.textContent = "⛅";
         break;
       case 3:
-        description.textContent = "Overcast";
+        description.textContent = "☁️";
         break;
       case 45:
-        description.textContent = "Fog";
+        description.textContent = "🌫️";
         break;
       case 61:
-        description.textContent = "Rain";
+        description.textContent = "🌧️";
         break;
       case 71:
-        description.textContent = "Snow";
+        description.textContent = "🌨️";
         break;
       default:
         description.textContent = "Unknown Weather";
