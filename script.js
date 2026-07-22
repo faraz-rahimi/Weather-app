@@ -81,7 +81,9 @@ const getWeather = async () => {
   } catch (e) {
     console.error(e);
     error.textContent = "Something went wrong.";
-  }
+  } finally {
+  loading.style.display = "none";
+}
 };
 
 document.addEventListener("keydown", (event) => {
