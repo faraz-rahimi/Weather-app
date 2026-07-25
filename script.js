@@ -86,11 +86,11 @@ const getWeather = async () => {
 }
 };
 
+button.addEventListener("click", getWeather);
+
 document.addEventListener("keydown", (event) => {
   const key = event.key;
   if (key === "Enter") {
     button.click();
   }
 });
-
-button.addEventListener("click", getWeather);
